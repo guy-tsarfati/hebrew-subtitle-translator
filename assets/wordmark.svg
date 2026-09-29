@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" role="img" aria-label="CueIvrit - English to Hebrew subtitles">
+  <rect width="660" height="150" rx="22" fill="#10213B"/>
+  <rect x="28" y="27" width="96" height="96" rx="23" fill="#183652"/>
+  <path d="M44 57h64v40H44z" fill="none" stroke="#55DBCC" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M94 69H56M100 81H67" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 81h-8l8-8" fill="none" stroke="#FFCC70" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M69 97v8h15v-8" fill="none" stroke="#55DBCC" stroke-width="5" stroke-linejoin="round"/>
+  <text x="146" y="80" fill="#F8FAFC" font-size="48" font-family="Arial, sans-serif" font-weight="700" letter-spacing="-1">Cue<tspan fill="#55DBCC">Ivrit</tspan></text>
+  <text x="148" y="111" fill="#BFD2DF" font-size="19" font-family="Arial, sans-serif">English to Hebrew subtitles, cue by cue</text>
+</svg>
