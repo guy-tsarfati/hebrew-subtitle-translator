@@ -1,6 +1,6 @@
 interface:
-  display_name: Hebrew Subtitle Translator
-  short_description: Translate and polish Hebrew subtitles with full cue review
+  display_name: CueIvrit
+  short_description: Translate Hebrew subtitles with cue-locked review
   default_prompt: Use $hebrew-subtitle-translator to translate or polish these subtitles,
     remove external credits, and review every cue.
   icon_small: assets/icon.svg
