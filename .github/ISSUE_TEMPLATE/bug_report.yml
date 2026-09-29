@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible pipeline, validation, or documentation problem
+title: "Bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Use a short synthetic or permission-cleared SRT excerpt. Do not upload complete third-party subtitles, private media, or secrets. For security issues, follow SECURITY.md."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the expected result and the actual result.
+      placeholder: "Expected cue 12 to retain its time; observed..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Give the command or workflow mode and a minimal example with cue IDs and timing.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Python 3.12, Linux, source encoding UTF-8"
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: For language issues, include the intended meaning, speaker and addressee context, and a short proposed correction.
