@@ -1,0 +1,27 @@
+name: Feature or language rule
+description: Propose a workflow improvement, language rule, or documentation change
+title: "Proposal: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Describe a concrete case. Use synthetic or permission-cleared snippets only."
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What input or recurring situation is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the output or rule you would like, including a small example if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Edge cases and tradeoffs
+      description: Could this affect timing, omissions, RTL display, gender, or existing terminology?
