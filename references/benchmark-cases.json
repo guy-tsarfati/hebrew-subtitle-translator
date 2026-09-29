@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "origin": "Synthetic examples for editorial evaluation",
+  "cases": [
+    {"id": "negation", "source": "I didn't say she stole it.", "acceptable_example": "לא אמרתי שהיא גנבה את זה.", "requirements": ["Preserve negation and attribution, do not imply she did or did not steal"]},
+    {"id": "quantity", "source": "Not fifteen. Fifty.", "acceptable_example": "לא חמש עשרה. חמישים.", "requirements": ["Preserve both numbers and the correction"]},
+    {"id": "idiom", "source": "You're barking up the wrong tree.", "acceptable_example": "החשד שלך מופנה למקום הלא נכון.", "context": "A suspect denying involvement", "requirements": ["Convey misdirected suspicion, no literal dog/tree"]},
+    {"id": "female_addressee", "source": "Maya, are you ready?", "context": "Maya explicitly identifies as a woman", "acceptable_example": "מאיה, את מוכנה?", "requirements": ["Use feminine address based on character evidence"]},
+    {"id": "unknown_gender", "source": "I'm glad you're here.", "acceptable_example": "טוב שבאת.", "requirements": ["Natural faithful neutral singular wording, no slash forms"]},
+    {"id": "plural", "source": "All three of you, stay here.", "acceptable_example": "שלושתכם, תישארו כאן.", "context": "Three men", "requirements": ["Plural command and quantity retained"]},
+    {"id": "parenthetical_dialogue", "source": "I asked for tea (not coffee).", "acceptable_example": "ביקשתי תה (לא קפה).", "requirements": ["Do not delete the correction as SDH"]},
+    {"id": "lyrics", "source": "♪ We will find the morning ♪", "acceptable_example": "נמצא את הבוקר", "requirements": ["Remove music symbols, preserve and translate lyric"]},
+    {"id": "mixed_sdh", "source": "(laughs) You owe me five dollars.", "acceptable_example": "חייבים לי חמישה דולרים.", "requirements": ["Remove laughter only in remove mode, preserve debt and amount"]},
+    {"id": "technical", "source": "The Core Relay is offline.", "acceptable_example": "ממסר הליבה לא פעיל.", "glossary": {"Core Relay": "ממסר הליבה"}, "requirements": ["Use scoped glossary, preserve offline state"]},
+    {"id": "subtitle_credit", "source": "Created by ExampleSubber          Enjoy single-line subs", "context": "Illustrative opening subtitle credit, confirmed against surrounding cues", "requirements": ["Omit only after source-bound credit decision, keep remaining cue IDs"]},
+    {"id": "film_credit", "source": "Created by Jane Doe", "context": "On-screen filmmaker credit, no subtitle attribution evidence", "requirements": ["Preserve, do not auto-delete Created by"]},
+    {"id": "mixed_credit", "source": "Subtitles by ExampleUser\nRun!", "requirements": ["Remove only confirmed attribution, translate Run in same cue"]},
+    {"id": "spoken_url", "source": "Open https://example.com and enter the code.", "requirements": ["Preserve meaningful URL, do not treat all URLs as ads"]}
+  ]
+}

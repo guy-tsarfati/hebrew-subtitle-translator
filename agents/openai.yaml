@@ -1,0 +1,14 @@
+interface:
+  display_name: Hebrew Subtitle Translator
+  short_description: Translate and polish Hebrew subtitles with full cue review
+  default_prompt: Use $hebrew-subtitle-translator to translate or polish these subtitles,
+    remove external credits, and review every cue.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
