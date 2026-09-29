@@ -27,7 +27,7 @@ Use a file with the SHA256 of original source bytes and a `decisions` array. Eac
 {
   "cue_id": 1,
   "source_text": "Subtitles by ExampleUser\nHello.",
-  "credit_spans": [{"start": 0, "end": 24, "text": "Subtitles by ExampleUser\n"}],
+  "credit_spans": [{"start": 0, "end": 25, "text": "Subtitles by ExampleUser\n"}],
   "reason": "External subtitle attribution, preserve the spoken greeting"
 }
 ```
