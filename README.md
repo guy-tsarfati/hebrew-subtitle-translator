@@ -4,6 +4,8 @@ An agent skill for translating, repairing, and polishing English SRT subtitles i
 
 The Python tools prepare, validate, build, and audit subtitles. They **do not translate dialogue**. An AI assistant or human translator must write and review the Hebrew text.
 
+See the [project wiki](https://github.com/guy-tsarfati/hebrew-subtitle-translator/wiki) for a guided setup, complete workflow, credit and SDH cleanup, and troubleshooting.
+
 ## Use the skill
 
 Copy this repository's folder into the skills directory supported by your AI assistant, or download the repository and add `SKILL.md` together with its `scripts/`, `references/`, `agents/`, and `assets/` directories. Invoke `hebrew-subtitle-translator` with an English SRT file. Follow the workflow in [SKILL.md](SKILL.md).
