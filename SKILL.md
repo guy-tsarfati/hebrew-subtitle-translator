@@ -3,7 +3,7 @@ name: hebrew-subtitle-translator
 description: Translate, repair, or selectively polish English-to-Hebrew SRT subtitles. Use for Hebrew subtitle translation, synchronized SRT repair, RTL punctuation, SDH cleanup, character-aware gender, recurring series terminology, legacy Hebrew encodings, translator/site credit removal, full bilingual editorial review, and batch or ZIP subtitle QA.
 ---
 
-# Hebrew Subtitle Translator
+# CueIvrit - Hebrew Subtitle Translator
 
 Create natural Hebrew subtitles with immutable cue IDs and source timing. Use the bundled Python scripts for structure and QA, and ChatGPT for translation and contextual editorial decisions. Scripts do not translate or prove semantic accuracy.
 
