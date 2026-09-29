@@ -21,6 +21,8 @@ The scripts **do not translate dialogue**. An AI assistant or human translator w
 
 For example, the source cue `12` at `00:01:20,000 --> 00:01:22,000` stays cue `12` at the same time. The translator changes its dialogue to natural Hebrew, then checks it against the English. Confirmed non-dialogue cues may be omitted without renumbering later cues.
 
+See the [26-cue Sintel worked example](examples/README.md) for a licensed English SRT, a reviewed Hebrew output, and the commands used to verify cue integrity.
+
 ## Get started
 
 1. Download or clone the repository and install its folder in the skills directory supported by your AI assistant. Keep `SKILL.md` beside `scripts/`, `references/`, `agents/`, and `assets/`.
@@ -54,4 +56,4 @@ python3 scripts/test_srt_pipeline.py
 python3 -m unittest discover -s scripts -p 'test_quality_upgrade.py' -v
 ```
 
-The repository includes no movie or television subtitle files. [MIT](LICENSE) covers this project's code and documentation; source subtitles and translations may have separate rights.
+The [MIT license](LICENSE) covers this project's skill, code, and documentation. The Sintel example carries separate Creative Commons attribution and licensing, as explained in [its README](examples/README.md). Other source subtitles and translations may have separate rights.
