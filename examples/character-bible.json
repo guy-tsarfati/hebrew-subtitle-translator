@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "characters": [
+    {
+      "name": "Sintel",
+      "aliases": ["סינטל"],
+      "grammatical_gender": "feminine",
+      "confidence": "high",
+      "evidence": [{"cue_id": 22, "text": "These are dragon lands, Sintel."}],
+      "notes": "Blender Studio identifies Sintel as a girl. This supports feminine self-reference and address in cues 3, 8, 11, 12, and 23. The SRT has no speaker labels."
+    },
+    {
+      "name": "Scales",
+      "aliases": ["סקיילס"],
+      "grammatical_gender": "unknown",
+      "confidence": "unresolved",
+      "evidence": [{"cue_id": 15, "text": "Good night, Scales."}],
+      "notes": "Blender identifies Scales as Sintel's baby dragon. The SRT does not establish the dragon's grammatical gender; avoid gendered direct address."
+    }
+  ],
+  "relationships": [
+    {"from": "Sintel", "to": "Scales", "address_style": "informal singular", "notes": "Close companion, according to the official film description."}
+  ],
+  "global_notes": ["The SRT alone does not identify every speaker. Gendered lines were checked against the official film description, but this example has not been visually reviewed with the film."]
+}
