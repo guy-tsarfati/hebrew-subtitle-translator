@@ -24,7 +24,7 @@ Disagreement with a technical or editorial decision is not itself misconduct. Re
 
 ## Reporting a concern
 
-Send a private email to **Guy Tsarfati**, the project maintainer, at **guy@1it.co.il**, with the subject **CueIvrit conduct report**.
+Send a private email to **Guy Tsarfati**, the project maintainer, at **guy@tsarfati.com**, with the subject **CueIvrit conduct report**.
 
 Where available, include links to the relevant conversation, a brief account of what happened, and any immediate concern about further contact. Share only information necessary to understand the incident. You may report behavior you experienced or witnessed.
 
