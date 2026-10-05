@@ -2,6 +2,8 @@
 
 Thanks for helping make English-to-Hebrew subtitle work more reliable. Issues, documentation fixes, language edge cases, and focused code changes are welcome.
 
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) in all project spaces. It includes a private route for reporting conduct concerns.
+
 ## Before opening an issue
 
 - Search existing issues and the [wiki](https://github.com/guy-tsarfati/hebrew-subtitle-translator/wiki).
