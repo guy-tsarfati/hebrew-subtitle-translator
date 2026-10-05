@@ -47,7 +47,7 @@ See the [wiki](https://github.com/guy-tsarfati/hebrew-subtitle-translator/wiki) 
 
 ## Contribute
 
-Found a bug or a Hebrew edge case? Use the [issue templates](https://github.com/guy-tsarfati/hebrew-subtitle-translator/issues/new/choose). Changes to code, rules, or documentation are welcome through pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md) first, and use short synthetic or permission-cleared subtitle examples. For a security concern, follow [SECURITY.md](SECURITY.md).
+Found a bug or a Hebrew edge case? Use the [issue templates](https://github.com/guy-tsarfati/hebrew-subtitle-translator/issues/new/choose). Changes to code, rules, or documentation are welcome through pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md) and follow the [Code of Conduct](CODE_OF_CONDUCT.md), and use short synthetic or permission-cleared subtitle examples. For a security concern, follow [SECURITY.md](SECURITY.md).
 
 Run the synthetic checks locally:
 
