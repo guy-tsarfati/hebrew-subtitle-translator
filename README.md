@@ -45,6 +45,10 @@ Preparation creates a manifest and translation batches. Translate every dialogue
 
 See the [wiki](https://github.com/guy-tsarfati/hebrew-subtitle-translator/wiki) for setup, credit and SDH decisions, quality checks, and troubleshooting. Video transcription and automatic retiming are outside this workflow.
 
+## Help and project status
+
+See [Support](SUPPORT.md) for questions and useful feedback, the [Roadmap](ROADMAP.md) for priorities, and the [Changelog](CHANGELOG.md) for release history and pending checks.
+
 ## Contribute
 
 Found a bug or a Hebrew edge case? Use the [issue templates](https://github.com/guy-tsarfati/hebrew-subtitle-translator/issues/new/choose). Changes to code, rules, or documentation are welcome through pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md) and follow the [Code of Conduct](CODE_OF_CONDUCT.md), and use short synthetic or permission-cleared subtitle examples. For a security concern, follow [SECURITY.md](SECURITY.md).
