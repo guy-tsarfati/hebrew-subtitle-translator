@@ -10,7 +10,7 @@ This small, real-world sample demonstrates a complete English-to-Hebrew cue-lock
 - `reviewed-translations.json` - final cue text after a bilingual review of all 26 cues. Cues 18 and 22 were edited for more natural Hebrew.
 - `sintel.he.srt` - final output built by the pipeline, with original IDs and timecodes, UTF-8 BOM, and the skill's RTL controls.
 
-The structural audit passed for all 26 cues: no missing or extra IDs, time changes, empty overlays, RTL violations, or reading-speed warnings. That audit checks structure; it cannot certify translation meaning. The editorial pass used the English SRT and official character context. We have not checked this output visually in a video player. This example has no SDH descriptions or third-party subtitle credits, so it does not exercise those cleanup features.
+The structural audit passed for all 26 cues: no missing or extra IDs, time changes, empty overlays, RTL violations, or reading-speed warnings. That audit checks structure; it cannot certify translation meaning. The editorial pass used the English SRT and official character context. All 26 cues were visually inspected on actual film frames rendered with FFmpeg/libass on 2026-10-07. See [VISUAL_CHECK.md](../VISUAL_CHECK.md) for the method and the cue 1 timing difference from the embedded English track. Full playback in a native video player remains unverified. This example has no SDH descriptions or third-party subtitle credits, so it does not exercise those cleanup features.
 
 ## Rebuild and verify
 
