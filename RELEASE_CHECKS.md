@@ -17,7 +17,7 @@ Environment: Linux, Python 3.12.14, Node.js 24.19.0, npm 11.9.0, skills CLI 1.7.
 
 ## Still open
 
-- Visual player validation of the Hebrew SRT against the Sintel film. Neither actual playback nor player compatibility has been verified by this check.
+- Full native player playback and broader player compatibility. All 26 cues were subsequently inspected on rendered Sintel frames using FFmpeg/libass. See [VISUAL_CHECK.md](VISUAL_CHECK.md) for the limited rendering result.
 - A full translation task inside the target assistant. CLI registration and helper execution do not establish assistant behavior.
 - Tagging the final tested commit and publishing a numbered release.
 - Downloading and checking the published release archive.
