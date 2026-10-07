@@ -25,9 +25,15 @@ See the [26-cue Sintel worked example](examples/README.md) for a licensed Englis
 
 ## Get started
 
-1. Download or clone the repository and install its folder in the skills directory supported by your AI assistant. Keep `SKILL.md` beside `scripts/`, `references/`, `agents/`, and `assets/`.
+1. Install for Codex with the verified command below, or follow [INSTALLATION.md](INSTALLATION.md) for prerequisites and manual installation. Keep the complete skill folder together.
 2. Provide a synchronized English SRT. Ask: “Use `$hebrew-subtitle-translator` to translate this English SRT into Hebrew, preserve cue IDs and timing, and review every cue against the source.”
 3. Follow [SKILL.md](SKILL.md) and the [Getting Started wiki guide](https://github.com/guy-tsarfati/hebrew-subtitle-translator/wiki/Getting-Started). The command-line helpers require Python 3.10+ and only the standard library.
+
+```bash
+npx skills add guy-tsarfati/hebrew-subtitle-translator --skill hebrew-subtitle-translator --agent codex --yes --copy
+```
+
+The installer requires Node.js/npm. The helpers require Python 3.10+. For a project installation, run helper commands from `.agents/skills/hebrew-subtitle-translator/`. Installation verification is recorded in [RELEASE_CHECKS.md](RELEASE_CHECKS.md).
 
 ```bash
 python3 scripts/srt_pipeline.py prepare input.en.srt --work-dir work --sdh-mode remove
