@@ -1,8 +1,14 @@
 # Changelog
 
-Release dates and tags will be recorded here when published. No numbered release has been published yet.
+Release dates and tags are recorded when published. The first preview release is being prepared.
 
 ## Unreleased
+
+Changes after the first preview will be listed here.
+
+## 0.1.0 preview
+
+First public preview. See the release page for publication status and date.
 
 ### Existing public baseline
 
@@ -25,9 +31,15 @@ Release dates and tags will be recorded here when published. No numbered release
 - Installation guide, first-release verification report, and a trial feedback issue form.
 - CI rebuild and audit of the licensed Sintel example, including byte equality with the committed Hebrew SRT.
 
+### Preview preparation on 2026-10-07
+
+- Documented Node.js 22.20.0+ as the tested installer requirement.
+- Visually inspected all 26 Hebrew cues on rendered Sintel film frames with FFmpeg/libass.
+- Prepared v0.1.0 preview release notes with explicit rendering and assistant-test limitations.
+
 ### Pending release checks
 
-- Versioned release download verification.
-- Visual player validation of the Sintel Hebrew output.
+- Versioned release archive verification is recorded on the release page after publication.
+- Native player playback remains unverified. Rendered-frame validation with FFmpeg/libass is documented in VISUAL_CHECK.md.
 
 The structural tests and audit do not certify semantic translation quality or universal player compatibility.
