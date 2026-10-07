@@ -1,0 +1,38 @@
+name: Trial feedback
+description: Tell us what happened when you tried CueIvrit
+title: "Feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: "Share installation, Hebrew quality, or player-display feedback. Use short synthetic or permission-cleared excerpts. Do not attach complete third-party subtitles, private media, or secrets. For vulnerabilities, follow SECURITY.md."
+  - type: input
+    id: setup
+    attributes:
+      label: Assistant, operating system, and skill revision
+      placeholder: "Codex, Linux, commit or release tag, Python version"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: What did you try?
+      options:
+        - Installation or example rebuild
+        - English-to-Hebrew translation
+        - Repair of existing Hebrew subtitles
+        - Selective polishing
+        - Other workflow
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What worked, and what needs improvement?
+      description: "For language feedback, include a short source/target pair and relevant speaker or addressee context. For installation, include the command and error."
+    validations:
+      required: true
+  - type: textarea
+    id: display
+    attributes:
+      label: Player display, if tested
+      description: "Name the player and version. Note Hebrew direction, mixed Latin text, punctuation, and line wrapping."
