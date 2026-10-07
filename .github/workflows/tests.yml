@@ -22,3 +22,9 @@ jobs:
         run: python3 scripts/test_srt_pipeline.py
       - name: Quality regression tests
         run: python3 -m unittest discover -s scripts -p 'test_quality_upgrade.py' -v
+      - name: Rebuild and audit Sintel example
+        run: |
+          python3 scripts/srt_pipeline.py prepare examples/sintel.en.srt --work-dir work/sintel --sdh-mode remove --character-bible examples/character-bible.json
+          python3 scripts/srt_pipeline.py build --manifest work/sintel/manifest.json --translations examples/reviewed-translations.json --output work/sintel/rebuilt.he.srt --strict
+          python3 scripts/srt_pipeline.py audit --source examples/sintel.en.srt --target work/sintel/rebuilt.he.srt --report work/sintel/qa-report.json --sdh-mode remove
+          cmp examples/sintel.he.srt work/sintel/rebuilt.he.srt
