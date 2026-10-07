@@ -21,5 +21,5 @@
   "relationships": [
     {"from": "Sintel", "to": "Scales", "address_style": "informal singular", "notes": "Close companion, according to the official film description."}
   ],
-  "global_notes": ["The SRT alone does not identify every speaker. Gendered lines were checked against the official film description, but this example has not been visually reviewed with the film."]
+  "global_notes": ["The SRT alone does not identify every speaker. Gendered lines were checked against the official film description, and all 26 cues were visually inspected on actual film frames rendered with FFmpeg/libass on 2026-10-07. Full native-player playback and audiovisual synchronization remain unverified."]
 }
