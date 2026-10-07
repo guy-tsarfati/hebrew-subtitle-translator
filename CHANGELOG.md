@@ -19,9 +19,14 @@ Release dates and tags will be recorded here when published. No numbered release
 - Support routes and a checklist for useful feedback in SUPPORT.md.
 - A public roadmap and launch tracking issue.
 
+### Added on 2026-10-07
+
+- Verified project installation through skills CLI 1.7.1 for the Codex target, with all bundled resources checked.
+- Installation guide, first-release verification report, and a trial feedback issue form.
+- CI rebuild and audit of the licensed Sintel example, including byte equality with the committed Hebrew SRT.
+
 ### Pending release checks
 
-- Clean skills CLI installation and bundled-resource verification.
 - Versioned release download verification.
 - Visual player validation of the Sintel Hebrew output.
 
