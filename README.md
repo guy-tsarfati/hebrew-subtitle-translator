@@ -33,7 +33,7 @@ See the [26-cue Sintel worked example](examples/README.md) for a licensed Englis
 npx skills add guy-tsarfati/hebrew-subtitle-translator --skill hebrew-subtitle-translator --agent codex --yes --copy
 ```
 
-The installer requires Node.js/npm. The helpers require Python 3.10+. For a project installation, run helper commands from `.agents/skills/hebrew-subtitle-translator/`. Installation verification is recorded in [RELEASE_CHECKS.md](RELEASE_CHECKS.md).
+The verified installer requires Node.js 22.20.0+ and npm. The helpers require Python 3.10+. For a project installation, run helper commands from `.agents/skills/hebrew-subtitle-translator/`. Installation verification is recorded in [RELEASE_CHECKS.md](RELEASE_CHECKS.md).
 
 ```bash
 python3 scripts/srt_pipeline.py prepare input.en.srt --work-dir work --sdh-mode remove
