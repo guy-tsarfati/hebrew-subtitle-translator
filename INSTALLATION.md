@@ -4,7 +4,7 @@ CueIvrit is an agent skill, not a standalone subtitle translator. Your AI assist
 
 ## Install with the skills CLI
 
-Prerequisite: Node.js and npm, with `npx` available. From the project where you want to use CueIvrit:
+Prerequisite: Node.js 22.20.0 or newer and npm, with `npx` available. The verified skills CLI 1.7.1 requires this Node.js minimum. From the project where you want to use CueIvrit:
 
 ```bash
 npx skills add guy-tsarfati/hebrew-subtitle-translator --skill hebrew-subtitle-translator --agent codex --yes --copy
